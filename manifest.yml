@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 1024M
+  instances: 1
+  domain: mybluemix.net
+  name: smtb-twitterdemo
+  host: smtb-twitterdemo
+  disk_quota: 1024M
+  services:
+  - smtb-twitterdemo-cloudantNoSQLDB
